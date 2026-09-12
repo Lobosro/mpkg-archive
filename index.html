@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroLinux Package Archive</title>
+</head>
+<body>
+    <h1>MicroLinux Package Archive</h1>
+
+    <ul id="packages">Loading...</ul>
+
+    <script>
+        fetch("pkglist")
+            .then(r => r.text())
+            .then(text => {
+                const list = document.getElementById("packages");
+                list.innerHTML = "";
+
+                for (const line of text.trim().split("\n")) {
+                    const [name, file] = line.trim().split(/\s+/);
+
+                    if (!name || !file) continue;
+
+                    const li = document.createElement("li");
+                    const a = document.createElement("a");
+
+                    a.href = "packages/" + file;
+                    a.textContent = name;
+
+                    li.appendChild(a);
+                    list.appendChild(li);
+                }
+            });
+    </script>
+</body>
+</html>
