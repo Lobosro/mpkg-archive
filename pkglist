@@ -1,3 +1,4 @@
 wordinator wordinator_musl_1.1.tar
 mpkg mpkg_0.31_bash.tar
 fastfetch fastfetch-2.68.1-19-modifiedmpkg.tar
+curl curl_8.22.0-DEV_musl.tar
