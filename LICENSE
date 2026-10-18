@@ -1,30 +1,30 @@
-MIT License
+# LICENCES OF THE SOFTWARE DISTRIBUTED HERE
 
---fastfetch copyrights--------------------
+--fastfetch license ----------------------
 Copyright (c) 2021-2023 Linus Dierheimer
 Copyright (c) 2022-2026 Carter Li
         (ORIGINAL SOFTWARE)
 https://github.com/fastfetch-cli/fastfetch
+(MIT LICENSE)
 
-
---mpkg and wordinator's copyrights--------
+--mpkg license --------------------------
 Copyright (c) 2026 Elias Feliciano
+(MIT LICENSE)
+
+--wordinator license --------------------
+Copyright (c) 2026 Elias Feliciano
+(GPL 3.0)
+
+--apk-tools license ---------------------
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+(GPL 2.0)
 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# Links to the licenses
+MIT LICENSE - https://opensource.org/license/mit
+GPL 2.0     - https://www.gnu.org/licenses/gpl-3.0.html
+GPL 3.0     - https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+# LICENSING COMPLIANCE
+If you believe that any software included in this distribution has been used or redistributed in a manner inconsistent with its applicable licence, please contact me at **mpkg.complience@eliaszarrouk.pt** so that I can investigate and address the issue.
